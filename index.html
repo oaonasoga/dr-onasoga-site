@@ -131,13 +131,16 @@
             <h2>Contact</h2>
             <!-- modify this form HTML and place wherever you want your form -->
             <form action="https://formspree.io/f/mkgbjdow" method="POST">
+                <label for="name">Name:</label><br>
+                 <input type="text" id="name" name="name" required style="width:100%; padding:8px; margin-bottom:1rem;"><br>
+                
               <label>
                Your email:
-               <input type="email" name="email">
+               <input type="email" name="email" required style="width:100%; padding:8px; margin-bottom:1rem;"><br>>
              </label>
              <label>
               Your message:
-              <textarea name="message"></textarea>
+              <textarea name="message" rows="5" required style="width:100%; padding:8px; margin-bottom:1rem;"></textarea><br>></textarea>
               </label>
               <!-- your other form fields go here -->
             <button type="submit">Send</button>
